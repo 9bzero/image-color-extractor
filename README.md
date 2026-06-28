@@ -1,23 +1,28 @@
-# image-color-extractor
+# Image Color Extractor
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Extract dominant colors from any image — hex, RGB, and HSL values
+Drop any image and instantly extract its dominant colors as HEX, RGB, and HSL values with palette export.
 
 ## Features
-- 🖼️ Drag & drop or click to upload any image
-- 🎨 Extracts 8 dominant colors via canvas pixel sampling
-- 📋 Copy HEX, RGB, or HSL with one click
-- 🎨 Visual palette strip
-- ⚡ 100% client-side — nothing leaves your browser
+
+- Drag-and-drop or file picker image upload
+- Extracts 5–10 dominant colors using color quantization
+- HEX, RGB, HSL display with one-click copy
+- Palette export as CSS custom properties, JSON, or PNG swatch
+- Color proportion visualization (pie chart)
+- Works entirely in the browser — images never leave your device
 
 ## Stack
-`React 18` · `TypeScript` · `Canvas API` · `Vite`
 
-## Quick Start
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Canvas API](https://img.shields.io/badge/Canvas_API-orange?style=flat)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
